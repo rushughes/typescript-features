@@ -25,3 +25,6 @@ let point: { x: number; y: number } = {
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
+
+let typeInference = 5;
+typeInference = 1;
