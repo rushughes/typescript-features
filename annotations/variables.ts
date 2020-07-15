@@ -28,3 +28,9 @@ const logNumber: (i: number) => void = (i: number) => {
 
 let typeInference = 5;
 typeInference = 1;
+
+// when to best use annotations
+// 1) function that returns the 'any' type
+const json = '{"x": 10, "y": 20}';
+const coords: { x: number; y: number } = JSON.parse(json);
+console.log(coords);

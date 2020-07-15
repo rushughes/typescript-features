@@ -1,4 +1,5 @@
 - `npm install -g typescript ts-node`
-- `tsc index.ts`
-- `node index.js`
-- `ts-node index.ts`
+- `tsc types.ts`
+- `node types.js`
+- `ts-node types.ts`
+- `ts-node annotations/variables.ts`
