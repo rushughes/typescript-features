@@ -77,3 +77,11 @@ const logger = (message: string): void => {
 const throwError = (message: string): never => {
   throw new Error(message);
 };
+
+const throwOtherError = (message: string): string => {
+  if (!message) {
+    throw new Error(message);
+  } else {
+    return message;
+  }
+};
