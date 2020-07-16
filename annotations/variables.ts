@@ -57,3 +57,7 @@ for (let i = 0; i < numbers.length; i++) {
 const add = (a: number, b: number): number => {
   return a + b;
 };
+
+const subtract = (a: number, b: number): number => {
+  return a + b;
+};
