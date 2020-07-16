@@ -54,3 +54,6 @@ for (let i = 0; i < numbers.length; i++) {
     numberAboveZero = numbers[i];
   }
 }
+const add = (a: number, b: number): number => {
+  return a + b;
+};
