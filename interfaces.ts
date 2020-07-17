@@ -42,3 +42,14 @@ const printVehicle2 = (vehicle: Vehicle): void => {
 
 printVehicle(oldCivic);
 printVehicle2(oldCivic);
+
+interface Reportable {
+  summary(): string;
+}
+
+const printVehicle3 = (vehicle: Reportable): void => {
+  console.log(vehicle.summary());
+};
+
+printVehicle3(oldCivic);
+printVehicle3(NewBeetle);
