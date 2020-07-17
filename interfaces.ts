@@ -53,3 +53,20 @@ const printVehicle3 = (vehicle: Reportable): void => {
 
 printVehicle3(oldCivic);
 printVehicle3(NewBeetle);
+
+const cocaColaDrink = {
+  color: 'brown',
+  carbonated: true,
+  sugar: 40,
+  summary(): string {
+    return `My drink has ${this.sugar} grams of sugar`;
+  },
+};
+
+const printSummary = (item: Reportable): void => {
+  console.log(item.summary());
+};
+
+printSummary(cocaColaDrink);
+printSummary(oldCivic);
+printSummary(NewBeetle);
